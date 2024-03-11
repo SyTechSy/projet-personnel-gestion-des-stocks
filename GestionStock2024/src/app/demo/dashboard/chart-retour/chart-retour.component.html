@@ -1,0 +1,38 @@
+<div class="container_chart_retour">
+    <div class="chart_retour">
+        <div class="content_name_nombre">
+            <div class="name_produit">
+                <p>Produit Retour</p>
+            </div>
+            <div class="nmbre_retour">
+                <h2>00</h2>
+                <span class="text-c-green">0.0%<i class="feather icon-trending-up ms-1"></i></span>
+            </div>
+        </div>
+        <div class="chart_bouge">
+            <apx-chart
+            [series]="chartOptions_1.series!"
+            [chart]="chartOptions_1.chart!"
+            [stroke]="chartOptions_1.stroke!"
+            [dataLabels]="chartOptions_1.dataLabels!"
+            [labels]="chartOptions_1.labels!"
+            [legend]="chartOptions_1.legend!"
+            [colors]="chartOptions_1.colors!"
+            [fill]="chartOptions_1.fill!"
+            [grid]="chartOptions_1.grid!"
+            >
+            [plotOptions]="chartOptions_1.plotOptions" [tooltip]="chartOptions_1.tooltip"
+        </apx-chart>
+        </div>
+        <div class="row_footer_name">
+            <div class="col">
+                <h3 class="m-0"><i class="fas fa-circle f-10 m-r-5 " style="color: green;"></i>00</h3>
+                <span class="ms-3">New</span>
+            </div>
+            <div class="col">
+                <h3 class="m-0"><i class="fas fa-circle f-10 m-r-5 " style="color: red;"></i>00</h3>
+                <span class="ms-3">Retourner</span>
+            </div>
+        </div>
+    </div>
+</div>

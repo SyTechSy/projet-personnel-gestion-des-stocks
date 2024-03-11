@@ -1,0 +1,48 @@
+.container_chart_retour {
+    margin-left: 10px;
+}
+
+.chart_retour {
+    background-color: #fff;
+    box-shadow: 0 0px 5px 0 rgba(0, 8, 255, 0.057);
+    border-radius: 5px;
+    height: 350px;
+    // width: 230px;
+    width: 100%;
+}
+
+.content_name_nombre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_produit p{
+    padding: 15px 0 0 15px;
+}
+
+.nmbre_retour {
+    padding: 5px 10px 0 0;
+    color: #008000;
+}
+
+.chart_bouge {
+    // margin-top: 20px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row_footer_name  {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.col h3 {
+    font-weight: 400;
+    // font-size: 30px;
+}
